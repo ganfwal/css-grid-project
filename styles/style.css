@@ -1,0 +1,87 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 122px) ;
+    grid-gap: 24px;
+}
+
+.first{
+    grid-column: 1/span 6;
+    grid-row: 6;
+    height: 146px;
+    background-color: #9BC1BC;
+}
+.first span{
+   
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: left;
+}
+.second {
+    grid-column: 1/span 2;
+    grid-row: 3;
+    background-color: #2B9348;
+        
+}
+.third {
+    grid-column: 1/span 2;
+    grid-row: 4;
+    height: 268px;
+    background-color: #55A630;
+}
+.fourth {
+    grid-column: 1/span 2;
+    grid-row: 1;
+    height: 195px;
+    background-color: #007F5F;
+}
+.fifth {
+    grid-column: 3/span 2;
+    grid-row: 1;
+    height: 414px;
+    background-color: #80B918;
+}
+.sixth {
+    grid-column: 3;
+    grid-row: 4;
+    height: 122px;
+    background-color: #AACC00;
+}
+.seventh {
+    grid-column: 3;
+    grid-row: 5;
+    height: 122px;
+    background-color: #BFD200;
+}
+.eighth {
+    grid-column: 4/span 2;
+    grid-row: 4;
+    height: 268px;
+    background-color: #D4D700;
+}
+.ninth {
+    grid-column: 6/span 1;
+    grid-row: 4;
+    height: 268px;
+    background-color: #007F5F;
+}
+.tenth {
+    grid-column: 5/span 2;
+    grid-row: 1;
+    height: 122px;
+    background-color: #DDDF00;
+}
+.eleventh {
+    grid-column: 5/span 2;
+    grid-row: 2;
+    height: 122px;
+    background-color: #EEEF20;
+}
+.twelfth {
+    grid-column: 5/span 2;
+    grid-row: 3;
+    height: 122px;
+    background-color: #FFFF3F;
+}
